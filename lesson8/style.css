@@ -1,0 +1,28 @@
+/* body {
+    background-color: lightblue;
+}
+
+h1 {
+    color: rgb(179, 179, 229);
+    text-align: center;
+}
+#first {
+    color: red;
+}
+#second {
+    color: green;
+}
+ol li {
+    text-decoration: line-through;
+}
+ol li, ul li{
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+} 
+
+.table .tabledata{
+    border: 1px solid black;
+} */
+
+.table{
+    border: 2px solid black;
+}
