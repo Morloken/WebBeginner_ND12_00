@@ -1,0 +1,47 @@
+/* .p-text {
+    color: rgb(51, 51, 227);
+}
+#p-id {
+    color:rgba(243, 203, 124, 0.747);
+}
+p{
+    color:green;
+} */
+
+.p-text {
+  font-size: 200%;
+}
+
+button:hover {
+  font-weight: bold;
+}
+
+.link {
+  color: rgb(10, 6, 6);
+}
+.link:visited {
+  color: rgb(130, 0, 252);
+}
+.input:focus {
+  text-decoration: underline;
+}
+
+table td {
+  border: 2px solid black;
+  height: 50px;
+  width: 50px;
+  text-align: center;
+  font-size: large;
+}
+table td:hover{
+    background-color: lightgray;
+}
+/* ---------- */
+.collage img{
+    width: 150px;
+    height: 150px;
+}
+.collage td:hover{
+    transform: scale(1.2);
+    transition: all 0.3s;
+}
