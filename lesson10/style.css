@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}/*IMPORTANT*/
+
+
+div{
+    background-image: 
+    linear-gradient(to right, rgb(244, 20, 244), rgb(0, 34, 255));
+    width: 500px;
+    height: 150px;
+    text-align: center;
+    color: white;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+    /* padding: 30px 100px 70px 50px; */
+    /* padding-left: 50px;
+    padding-bottom: 120px; */
+    /* margin: -50px; */
+    margin: auto;
+}
