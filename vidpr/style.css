@@ -1,0 +1,16 @@
+body {
+    background-color: rgb(255, 147, 147) ;
+}
+p, h2{
+    text-decoration: underline;
+}
+#phone{
+    text-decoration: solid;
+    color: blue;
+}
+.main{
+    text-shadow: 0 0 10px;
+}
+ol li{
+    padding-left: 67px;
+}
