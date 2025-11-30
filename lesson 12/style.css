@@ -47,3 +47,43 @@ header{
     margin: 10px auto;
     width: 500px;
 }
+/*For task 1*/
+table , td , th{
+  border:  2px solid black;
+}
+table{
+  background: rgba(0, 0, 0, 0.1);
+}
+th, td{
+  padding: 10px;
+  text-align: center;
+}
+/*For task 1 END*/
+
+/*For task 2*/
+  form{
+    border: 2px solid black;
+    background: rgba(0, 0, 0, 0.1);
+    width: 500px;
+    margin: 0 auto;
+    padding: 5px;
+  }
+/*For task 2 END*/
+
+/*For task 3*/
+.flag{
+  width: 300px;
+  height: 200px;
+  border: 1px solid black;
+  margin: 0 auto;
+  box-shadow: 1px solid rgba(0, 0, 0, 0);
+  background: white;
+}
+.circle{
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  background: red;
+  margin: 40px auto;
+}
+/*For task 3 END*/
