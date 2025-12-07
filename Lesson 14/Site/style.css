@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container img{
+  height: 150px;
+  /* float: left; */
+
+}
+header{
+    background-image:linear-gradient(to right, red, blue);
+}
+.container{
+    background-color: skyblue;
+    margin: 10px ;
+}
+.container nav{
+    background-color: rgb(65, 69, 105);
+    height: 50px;
+    /*  */
+    width: 100px;
+    float: right;
+}
+.container ::after{
+    content: "";
+    display: table;
+    clear: both;
+}
