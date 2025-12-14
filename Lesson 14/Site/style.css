@@ -13,17 +13,71 @@ header{
 }
 .container{
     background-color: skyblue;
-    margin: 10px ;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1500px;
+    padding: 15px;
 }
 .container nav{
-    background-color: rgb(65, 69, 105);
-    height: 50px;
-    /*  */
-    width: 100px;
+    background-color: rgb(93, 99, 151);
+    
+   
+    width: 700px;
     float: right;
+    border-radius: 50px;
+    height: 140px;
+    padding: 0 20px;
 }
 .container ::after{
     content: "";
     display: table;
     clear: both;
+}
+.container nav li{
+    list-style: none;
+    display: inline-block;
+    
+}
+.container nav li a{
+    margin: 0 10px;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    line-height: 50px;
+    text-align: center;
+    margin-left: 10px;
+}
+
+.container nav ul{
+    padding: 0px;
+    padding-top: 35px;
+    margin: 0px;
+   
+}
+.login{
+    float: right;
+    background-color: black;
+    color: white;
+    border-radius: 40px;
+    width: 100px;
+    height: 80px;
+    padding: 15px 0;
+    text-align: center;
+    
+}
+nav li a:hover{
+    color: grey;
+}
+
+/**/
+body .container2{
+    background-image: linear-gradient(to right, (0, 191, 255), violet);
+    height: 400px;
+    width: 100%;
+}
+
+.container2 h1{
+    text-align: center;
+   padding-top: 30px;
+   background-color: lightcyan;
 }
