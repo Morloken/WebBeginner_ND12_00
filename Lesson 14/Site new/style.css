@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+/* 1 */
+.top-bar {
+    background-color: #ff7b29;
+    text-align: center;
+    padding: 20px 0;
+    color: #333;
+}
+.top-bar p {
+    font-style: italic;
+    font-size: 24px;
+    margin-bottom: 15px;
+    font-family: serif;
+}
+.btn-write {
+    display: inline-block;
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 14px;
+}
+/* 1 end */
+header {
+    background-color: #ff9642;
+    /*2*/
+    border-bottom: 1px solid #e07e2e;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    width: 100%;
+    /*2 end*/
+}
+
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 10px 20px;
+}
+
+.container::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.container img {
+    height: 100px;
+    float: left;
+    margin-top: 10px;
+}
+
+.container nav {
+    float: right;
+}
+
+.container nav ul {
+    margin: 0;
+    padding: 0;
+}
+
+.container nav li {
+    list-style: none;
+    display: inline-block;
+    /*3*/
+    margin-left: 20px; 
+    /*3 end*/
+}
+
+.container nav li a {
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.login {
+    background-color: black;
+    color: white !important;
+    padding: 10px 25px;
+    border-radius: 10px;
+    display: inline-block;
+}
+/*4*/
+.container2 {
+    background-image: linear-gradient(to right, #fcdfaa, #ff9642);
+    min-height: 100vh;
+    padding: 50px 20px;
+}
+
+.content-block {
+    max-width: 800px;
+    margin: 0 auto 40px auto;
+    padding-bottom: 40px;
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+}
+
+.content-block::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.text-part {
+    float: left;
+    width: 60%;
+    padding-right: 20px;
+}
+
+.img-part {
+    float: right;
+    width: 150px;
+    height: 150px;
+}
+
+.container2 h1 {
+    font-size: 28px;
+    margin-bottom: 15px;
+    color: #333;
+}
+
+.container2 p {
+    line-height: 1.5;
+    color: #444;
+    margin-bottom: 15px;
+}
+
+.date {
+    font-size: 12px;
+    color: #666;
+}
+/*4 end*/

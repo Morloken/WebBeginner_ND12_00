@@ -39,8 +39,8 @@ header{
     
 }
 .container nav li a{
-    margin: 0 10px;
     text-decoration: none;
+    margin: 0 10px;
     color: white;
     font-size: 20px;
     line-height: 50px;
